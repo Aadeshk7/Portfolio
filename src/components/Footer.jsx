@@ -40,7 +40,9 @@ export default function Footer() {
                 >
                     {/* Email */}
                     <motion.a
-                        href="mailto:aadesh.kulkarni.sknscoe.comp@gmail.com"
+                        href="https://mail.google.com/mail/?view=cm&to=aadesh.kulkarni.sknscoe.comp@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         whileHover={{ scale: 1.03, y: -4 }}
                         className="glass rounded-2xl p-6 flex flex-col items-center gap-3 text-center group transition-all duration-300 glow-green-hover"
                         style={{ borderColor: 'rgba(0,255,136,0.12)' }}
@@ -84,7 +86,7 @@ export default function Footer() {
 
                     {/* GitHub */}
                     <motion.a
-                        href="https://github.com"
+                        href="https://github.com/Aadeshk7"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.03, y: -4 }}

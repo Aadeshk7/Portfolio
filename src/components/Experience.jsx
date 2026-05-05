@@ -1,18 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Trophy, Users, Award, Star, Mic, Terminal } from 'lucide-react';
+import { Trophy, Users, Award, Star, Mic, Terminal, Lightbulb, FileText } from 'lucide-react';
 
 const timeline = [
     {
-        year: '2024',
-        role: 'Main Event Coordinator & Anchor',
-        org: 'Hackathon 2K24',
+        year: '2026',
+        role: 'Winner: Best Resume Competition',
+        org: 'SKNSCOE',
         description:
-            'Led and anchored Hackathon 2K24 end-to-end — managed a 10-member core organising team, coordinated 500+ participants across multiple tracks, handled stage hosting & live commentary, and ensured seamless execution from kickoff to prize distribution.',
-        icon: Mic,
-        accent: '#00ff88',
-        tags: ['Event Leadership', '10-Member Team', '500+ Participants', 'Stage Anchor', 'Public Speaking'],
-        badge: '🎙️ Anchor & Lead',
+            'Awarded for the most professional and well-structured resume among peers at SKNSCOE. Recognized for clarity, technical depth, and impactful presentation of projects and skills.',
+        icon: FileText,
+        accent: '#00d4ff',
+        tags: ['Professional Writing', 'Resume Design', 'Career Excellence'],
+        badge: '🥇 Winner',
     },
     {
         year: '2025',
@@ -24,6 +24,28 @@ const timeline = [
         accent: '#ffdd57',
         tags: ['Hackathon Winner', 'AI Solution', 'National Problem Statement'],
         badge: '🏆 Winner',
+    },
+    {
+        year: '2025',
+        role: 'Winner: Business Idea & Debate',
+        org: 'EvolvX 2025',
+        description:
+            'Secured first place in the Business Idea Presentation and Debate competition at EvolvX. Demonstrated strong entrepreneurial thinking, persuasive communication, and strategic problem-solving skills.',
+        icon: Lightbulb,
+        accent: '#a78bfa',
+        tags: ['Business Strategy', 'Public Speaking', 'Debate', 'Entrepreneurship'],
+        badge: '🏆 Winner',
+    },
+    {
+        year: '2024',
+        role: 'Main Event Coordinator & Anchor',
+        org: 'Hackathon 2K24',
+        description:
+            'Led and anchored Hackathon 2K24 end-to-end — managed a 10-member core organising team, coordinated 500+ participants across multiple tracks, handled stage hosting & live commentary, and ensured seamless execution from kickoff to prize distribution.',
+        icon: Mic,
+        accent: '#00ff88',
+        tags: ['Event Leadership', '10-Member Team', '500+ Participants', 'Stage Anchor', 'Public Speaking'],
+        badge: '🎙️ Anchor & Lead',
     },
     {
         year: 'Academic',

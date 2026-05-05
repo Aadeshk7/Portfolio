@@ -5,7 +5,6 @@ import { ArrowDown, Download, Eye, Terminal } from 'lucide-react';
 const ROLES = [
     'AI / ML Engineer',
     'Full-Stack Developer',
-    'NLP Specialist',
     'Computer Vision Expert',
     'Event Coordinator & Anchor',
 ];
@@ -141,7 +140,7 @@ export default function Hero() {
                     className="max-w-2xl text-[#8aaa96] text-xs md:text-sm leading-relaxed mb-7 md:mb-9 font-mono"
                 >
                     <span className="text-[#00ff88]/60">/*</span>{' '}
-                    B.Tech CSE student (2027) · <span className="text-[#00d4ff]">9.0 SGPA</span> · NLP-based localisation
+                    B.Tech CSE student (2027) · <span className="text-[#00d4ff]">9.0 SGPA</span> · Neural Video Translation
                     &amp; high-accuracy Computer Vision · Full-Stack production systems.{' '}
                     <span className="text-[#00ff88]/60">*/</span>
                 </motion.p>
@@ -154,7 +153,9 @@ export default function Hero() {
                     className="flex flex-col sm:flex-row gap-3 mb-10 md:mb-14"
                 >
                     <motion.a
-                        href="/resume.pdf" download
+                        href="/resume.pdf" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
                         whileHover={{ scale: 1.04, y: -2 }}
                         whileTap={{ scale: 0.97 }}
                         className="flex items-center justify-center gap-2 px-7 py-3 rounded-lg font-mono text-xs md:text-sm font-bold tracking-wide transition-all duration-200"
@@ -183,10 +184,10 @@ export default function Hero() {
                 >
                     {[
                         { val: '9.0', key: 'SGPA' },
-                        { val: '8+', key: 'PROJECTS' },
+                        { val: 'Winner', key: 'SIH_2025' },
+                        { val: '4+', key: 'FULL_STACK_APPS' },
                         { val: '95%', key: 'CV_ACCURACY' },
-                        { val: '10+', key: 'LANGUAGES_SUPPORTED' },
-                        { val: '500+', key: 'HACKATHON_MANAGED' },
+                        { val: '10+', key: 'LANGUAGES' },
                     ].map((s) => (
                         <div key={s.key} className="flex flex-col gap-0.5">
                             <span className="text-xl md:text-2xl font-black text-[#00ff88] leading-none">{s.val}</span>
